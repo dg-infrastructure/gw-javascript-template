@@ -17,11 +17,10 @@ lib-cov
 # Ignore webstorm/intellij files
 .idea
 
-# Coverage directory used by tools like istanbul
+# Coverage and results used by tools like istanbul
 coverage
-
-# nyc test coverage
 .nyc_output
+test-results.xml
 
 # Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
 .grunt
