@@ -9,7 +9,7 @@ describe('Calculator', () => {
     expect(sum).to.be.eql(7);
   });
 
-  it('should substract two numbers', () => {
+  it('should subtract two numbers', () => {
     const sub = Calculator.sub(5, 2);
     expect(sub).to.be.eql(3);
   });
