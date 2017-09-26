@@ -46,7 +46,6 @@
     "build": "yarn lint",
     "cleanup": "rm -rf .nyc_output/ coverage/ *.log",
     "lint": "yarn prettier && ./node_modules/eslint/bin/eslint.js --ext .jsx --ext .js src/",
-    "precommit": "yarn lint && yarn test",
     "prettier": "prettier --single-quote --trailing-comma es5 --write 'src/**/*.{ts,js}'",
     "start": "node src/index.ts",
     "test": "nyc mocha 'src'",
