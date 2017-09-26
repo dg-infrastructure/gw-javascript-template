@@ -35,5 +35,3 @@ jobs:
 
       # run tests!
       - run: yarn test
-        environment:
-          MOCHA_FILE: "$CIRCLE_TEST_REPORTS/test-results.xml"
